@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1170px) {
+  .nav-top .left,
+  .right {
+    display: none;
+  }
+
+  .nav-top span {
+    display: block;
+    font-size: 24px;
+  }
+  .nav-top {
+    height: 50px;
+    padding: 20px 20px;
+  }
+
+  .nav-bar .list .menu-items {
+    display: none;
+  }
+  .nav-bar .list i {
+    font-size: 20px;
+  }
+
+  /*  */
+  .nav-top .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.show {
+    display: block;
+  }
+
+  .menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .menu-btn {
+    font-size: 26px;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  .close-btn {
+    font-size: 36px;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  /*  */
+}
